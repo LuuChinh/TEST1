@@ -1,0 +1,10 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 150
+    min-spare-threads: 30
+  port: 8000
+
+  address: 0.0.0.0
+
+

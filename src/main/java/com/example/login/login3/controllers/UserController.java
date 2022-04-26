@@ -26,7 +26,7 @@ public class UserController {
 //                new User(1L,"trinhloc123","12345f"),
 //                new User(1L,"trinhloc123","12345f")
 //        );
-        return null;
+        return repository.getListUser();
 
     }
 }
